@@ -10,7 +10,8 @@ S/W : ROS2 Humble + mpu6050dmp
 
 ### 1. MPU6050 아두이노 라이브러리 설치 및 수정
 
-<img src="/home/firstbot/Pictures/1a_1.png" alt="이미지 대체 텍스트" style="float: left;">
+![image](https://github.com/firstbot1/imu_serial/assets/88788285/e5a935de-372a-41e5-b5c2-62e0b85b0bb6)
+
 
 1.1 MPU6050예제 중에서 MPU6050_DMP를 아래와 같이 수정
 
