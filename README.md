@@ -292,15 +292,20 @@ ros2 run imu_serial mpu6050_dmp6
 
 topic이 정상적으로 발행 되는지 학인.
 
-<img src="/home/firstbot/Pictures/1a_2.png" alt="이미지 대체 텍스트" style="float: left;">
+![image](https://github.com/firstbot1/imu_serial/assets/88788285/077cc443-4771-40e0-b1ff-759756399a56)
+
 
 ros2 topic echo /imu_quaternion을 시행 정상적으로 quaterinon 토픽이 발행 되는지 확인.
 
-<img src="/home/firstbot/Pictures/1a_3.png" alt="이미지 대체 텍스트" style="float: left;">
+![image](https://github.com/firstbot1/imu_serial/assets/88788285/9b7a036d-cf59-4c59-acf7-48cdd3260f11)
+
+
 
 tf2 tree 확인 
 
-<img src="/home/firstbot/Pictures/1a_4.png" alt="이미지 대체 텍스트" style="float: left;">
+![image](https://github.com/firstbot1/imu_serial/assets/88788285/e78e7cfb-9b6f-46c7-a804-e449d246ef57)
+
+
 
 해당 그래프에 대한 설명은 다음과 같습니다:
 
@@ -333,6 +338,8 @@ tf2 tree 확인
 ros2 run rviz2 rviz2
 ```
 
-<img src="/home/firstbot/Pictures/1a_5.png" alt="이미지 대체 텍스트" style="float: left;">
+![image](https://github.com/firstbot1/imu_serial/assets/88788285/1797ea55-3186-4821-8833-f99f7f06b476)
+
+
 
 생각보다는 꽤 정확한것 같다. 내가 mpu6050 imu를  테스트해보는 것은 odom wheel 대신 laser_scan과 fusion하여 사용할 수 있는지 확인해 보기 위해서 이다. 또한 로봇팔에도 적용이 가능한지 확인해 보기 위해서 그 정확성이 궁금해서이고 arduino 라이브러리인 mpu6050에 포함된 dmp6 알고리즘은 관련 알고리즘들 중에서  가장 정확한것 같다.
